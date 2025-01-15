@@ -26,8 +26,7 @@ Ensure the following tools and software are installed before proceeding:
 
    ```bash
    cd aws-sam-nodejs-example/HelloWorlFunction
-   npm install
-   
+   npm install  
 ### Project Files
 
 The project consists of the following folders and files:
@@ -69,10 +68,12 @@ To initiate a debugging session:
 To deploy the application: 
 
 1. Build the application:
+
     ```bash
     sam build
     
 2. Deploy to AWS using guided prompts:
+   
     ```bash
     sam deploy --guided
 
