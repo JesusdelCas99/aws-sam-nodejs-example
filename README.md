@@ -21,12 +21,11 @@ Ensure the following tools and software are installed before proceeding:
 
    ```bash
    git clone https://github.com/JesusdelCas99/aws-sam-nodejs-example.git
-   cd aws-sam-nodejs-example
-   
+      
 2. Install project dependencies:
 
    ```bash
-   cd HelloWorlFunction
+   cd aws-sam-nodejs-example/HelloWorlFunction
    npm install
    
 ### Project Files
@@ -71,11 +70,10 @@ To deploy the application:
 
 1. Build the application:
     ```bash
-    cd aws-sam-nodejs-example
     sam build
+    
 2. Deploy to AWS using guided prompts:
     ```bash
-    cd aws-sam-nodejs-example
     sam deploy --guided
 
 ### License
