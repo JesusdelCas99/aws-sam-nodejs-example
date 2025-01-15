@@ -79,4 +79,4 @@ To deploy the application:
 
 ### License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/JesusdelCas99/aws-sam-nodejs-example/blob/main/LICENSE).
