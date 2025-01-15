@@ -21,13 +21,15 @@ Ensure the following tools and software are installed before proceeding:
 
    ```bash
    git clone https://github.com/JesusdelCas99/aws-sam-nodejs-example.git
-      
+   ```
+   
 2. Install project dependencies:
 
    ```bash
    cd aws-sam-nodejs-example/HelloWorlFunction
    npm install
-    
+   ```
+   
 ### Project Files
 
 The project consists of the following folders and files:
