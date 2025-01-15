@@ -1,4 +1,4 @@
-# Local Debugging of Node.js AWS Lambda Functions via SAM CLI and VS Code
+# Local Debugging of Node.js AWS Lambda Functions via SAM CLI and Visual Studio Code
 
 
 This project demonstrates a sample setup for debugging AWS Lambda functions with a Node.js runtime on a Windows host machine using the AWS Serverless Application Model (AWS SAM), Docker, and Visual Studio Code. The example features a simple Lambda function that returns a message with the current timestamp upon each execution.
