@@ -64,8 +64,9 @@ To initiate a debugging session:
 
     ```bash
    sam local invoke HelloWorldFunction --template sam/template.yaml --event events/event.json \
-  --profile default --debug-port 9999
+     --profile default --debug-port 9999
    ```
+    
 2. Open the debug panel in VS Code, choose `Attach to SAM CLI`, and press `F5` to start debugging.
 
 ### License
