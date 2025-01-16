@@ -6,7 +6,7 @@ Resources:
     Properties:
       Handler: app.handler
       Runtime: nodejs18.x
-      CodeUri: HelloWorldFunction
+      CodeUri: ../
       MemorySize: 128
       Timeout: 60
       Policies: AWSLambdaBasicExecutionRole

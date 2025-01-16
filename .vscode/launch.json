@@ -7,7 +7,7 @@
       "request": "attach",
       "address": "localhost",
       "port": 9999,
-      "localRoot": "${workspaceFolder}/HelloWorldFunction",
+      "localRoot": "${workspaceFolder}",
       "remoteRoot": "/var/task"
     }
   ]
