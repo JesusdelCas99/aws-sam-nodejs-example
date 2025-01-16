@@ -51,7 +51,7 @@ For local testing of the Lambda function, use the AWS SAM CLI `sam local invoke`
 ```bash
 sam local invoke HelloWorldFunction --template sam/template.yaml \
   --event events/event.json --profile <aws-profile-name>
-# Replace command placeholders with your AWS profile and desired debug port
+# Replace command placeholder with your AWS profile name
 ```
 
 This command launches a Docker container to emulate the Lambda environment as defined in the `template.yml` file, offering an accurate simulation of its behavior in AWS, including dependencies and resource constraints.
