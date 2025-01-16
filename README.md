@@ -26,7 +26,7 @@ Ensure the following tools and software are installed before proceeding:
 2. Install project dependencies:
 
    ```bash
-   cd aws-sam-nodejs-example/HelloWorlFunction
+   cd aws-sam-nodejs-example
    npm install
    ```
    
