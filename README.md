@@ -36,9 +36,9 @@ The project consists of the following folders and files:
 
 - `.vscode/launch.json`: Debugging configuration for VS Code.
   
-- `HelloWorldFunction/`: Contains the Lambda function's source code and dependencies.
+- `./`: Contains the Lambda function's source code and dependencies.
 
-- `template.yaml`: SAM template for Lambda configuration (runtime, handler, resources).
+- `sam/template.yaml`: SAM template for Lambda configuration (runtime, handler, resources).
 
 - `events/`: JSON files for simulating Lambda event data.
 
