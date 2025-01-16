@@ -53,7 +53,7 @@ sam local invoke HelloWorldFunction --template sam/template.yaml \
   --event events/event.json --profile default
 ```
 
-This command launches a Docker container to emulate the Lambda function's environment as defined in the `template.yml` file, offering an accurate simulation of its behavior in AWS, including dependencies and resource constraints.
+This command launches a Docker container to emulate the Lambda environment as defined in the `template.yml` file, offering an accurate simulation of its behavior in AWS, including dependencies and resource constraints.
 
 #### Linking the Debug UI
 
