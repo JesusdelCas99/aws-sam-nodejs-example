@@ -43,7 +43,7 @@ The project consists of the following folders and files:
 - `events/`: JSON files for simulating Lambda event data.
 
  
-### Running Locally
+### Usage
 
 
 For local testing of the Lambda function, use the AWS SAM CLI `sam local invoke` command with a sample event: 
