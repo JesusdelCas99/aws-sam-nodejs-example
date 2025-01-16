@@ -34,10 +34,10 @@ Ensure the following tools and software are installed before proceeding:
 
 The project consists of the following folders and files:
 
+- `.`: Contains the Lambda function's source code and dependencies.
+  
 - `.vscode/launch.json`: Debugging configuration for VS Code.
   
-- `.`: Contains the Lambda function's source code and dependencies.
-
 - `sam/template.yaml`: SAM template for Lambda configuration (runtime, handler, resources).
 
 - `events/`: JSON files for simulating Lambda event data.
