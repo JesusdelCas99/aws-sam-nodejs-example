@@ -52,7 +52,9 @@ For local testing of the Lambda function, use the AWS SAM CLI `sam local invoke`
 sam local invoke HelloWorldFunction --template sam/template.yaml \
   --event events/event.json --profile default
 ```
-This command launches a Docker container to emulate the Lambda function's execution environment as defined in the template.yml file, offering a realistic simulation of its behavior in AWS, including dependencies and resource constraints.
+
+This command launches a Docker container to emulate the Lambda function's environment as defined in the `template.yml` file, offering an accurate simulation of its behavior in AWS, including dependencies and resource constraints.
+
 #### Linking the Debug UI
 
 To enable local debugging, the Visual Studio Code debugger can be configured to attach to the Docker container’s runtime using the `--debug-port` flag. This forwards a port on the host machine to the container, allowing Visual Studio Code (VS Code) to control the Lambda function process for efficient step-through debugging.
