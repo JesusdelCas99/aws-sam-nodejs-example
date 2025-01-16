@@ -65,20 +65,6 @@ To initiate a debugging session:
    sam local invoke HelloWorldFunction --event events/event.json --debug-port 9999
     
 2. Open the debug panel in VS Code, choose `Attach to SAM CLI`, and press `F5` to start debugging.
-   
-### Deploying to AWS
-
-To deploy the application: 
-
-1. Build the application:
-
-    ```bash
-    sam build
-    
-2. Deploy to AWS using guided prompts:
-   
-    ```bash
-    sam deploy --guided
 
 ### License
 
